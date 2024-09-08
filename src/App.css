@@ -757,7 +757,7 @@ div#txt {
 }
 
 .footer-info {
-  color: white;
+    color: white;
 }
 
 .footer-info a {
@@ -782,4 +782,35 @@ div#txt {
   position: absolute;
   right: 20px;
   top: 1.5%;
+}
+/* ????????????????? */
+/* General styles */
+.date-time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.dmy {
+  display: flex;
+  flex-direction: row;
+  margin: -100px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.current-time, .current-date {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.temperature {
+  display: flex;
+  flex-direction: row;
+  font-size: 2.5rem;
+  font-weight: bold;
+  align-items: center;
 }
